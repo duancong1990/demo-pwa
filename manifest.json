@@ -1,8 +1,11 @@
 {
-    "name": "demo-pwa",
     "short_name": "pwa",
-    "description": "The app that helps you understand PWA", 
     "icons": [
+        {
+            "src": "/img/icon/48.png",
+            "type": "image/png",
+            "sizes": "36x36"
+        },
         {
             "src": "/img/icon/48.png",
             "type": "image/png",
@@ -11,16 +14,37 @@
         {
             "src": "/img/icon/96.png",
             "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/img/icon/96.png",
+            "type": "image/png",
             "sizes": "96x96"
+        },
+        {
+            "src": "/img/icon/96.png",
+            "type": "image/png",
+            "sizes": "144x144"
         },
         {
             "src": "/img/icon/192.png",
             "type": "image/png",
             "sizes": "192x192"
+        },
+        {
+            "src": "/img/icon/192.png",
+            "type": "image/png",
+            "sizes": "256x256"
         }
     ],
+    "start_url": "index.html?launcher=true",
+    "description": "The app that helps you understand PWA",
+    "display": "fullscreen",
+    "name": "demo-pwa",
+    "orientation": "any",
     "background_color": "#2196F3",
     "theme_color": "#2196F3",
-    "display": "fullscreen",
-    "start_url": "index.html?launcher=true"
+    "dir": "rtl",
+    "lang": "cn",
+    "scope": "/"
 }
