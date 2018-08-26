@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./app.css">
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw2.js') // 注册sw.js 文件中变成的服务对象，返回注册成功的对象
+            navigator.serviceWorker.register('/sw.js') // 注册sw.js 文件中变成的服务对象，返回注册成功的对象
                 .then(function (swReg) {
                     swRegistration = swReg;
                     console.log('已注册成功service worker');
