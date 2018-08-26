@@ -1,0 +1,25 @@
+#app {
+    font-family: cursive, 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+div {
+    text-align: center;
+}
+.title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.img {
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+img {
+    height: 45%;
+    width: 90%;
+    max-width: 400px;
+    max-height: 200px;
+}

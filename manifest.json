@@ -1,0 +1,40 @@
+{
+    "name": "demo - pwa",
+    "short_name": "pwa",
+    "description": "The app that helps you understand PWA", 
+    "icons": [
+        {
+            "src": "/img/48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/img/96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/img/192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "background_color": "#2196F3",
+    "theme_color": "#2196F3",
+    "display": "standalone",
+    "start_url": "index.html?launcher=true",
+    "serviceworker": {
+        "src": "sw.js",
+        "scope": "/",
+        "update_via_cache": "none"
+      },
+      "screenshots": [{
+        "src": "img/96.png",
+        "sizes": "640x480",
+        "type": "image/png"
+      },{
+        "src": "img/192.png",
+        "sizes": "1280x920",
+        "type": "image/png"
+      }]
+}
